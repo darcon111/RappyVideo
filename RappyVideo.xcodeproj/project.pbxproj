@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21D3B0C260118161D0A5677E /* Pods_RappyVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8494CB0769ED2965DD2885 /* Pods_RappyVideo.framework */; };
 		528A40E826FF629900490D63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528A40E726FF629900490D63 /* AppDelegate.swift */; };
-		528A40EA26FF629900490D63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528A40E926FF629900490D63 /* SceneDelegate.swift */; };
 		528A40EC26FF629900490D63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528A40EB26FF629900490D63 /* ViewController.swift */; };
 		528A40EF26FF629900490D63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 528A40ED26FF629900490D63 /* Main.storyboard */; };
 		528A40F226FF629900490D63 /* RappyVideo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 528A40F026FF629900490D63 /* RappyVideo.xcdatamodeld */; };
@@ -16,6 +16,8 @@
 		528A40F726FF629A00490D63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 528A40F526FF629A00490D63 /* LaunchScreen.storyboard */; };
 		528A410226FF629A00490D63 /* RappyVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528A410126FF629A00490D63 /* RappyVideoTests.swift */; };
 		528A410D26FF629A00490D63 /* RappyVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528A410C26FF629A00490D63 /* RappyVideoUITests.swift */; };
+		ECCEFBFE0CCB007A73AD279B /* Pods_RappyVideoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E7FBF8636CCD157D01A841 /* Pods_RappyVideoTests.framework */; };
+		EF4F52E32CC2AE4654DB0046 /* Pods_RappyVideo_RappyVideoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 410013CFA7852BB2D58640CA /* Pods_RappyVideo_RappyVideoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		391CA7E05DCA723EA469A31F /* Pods-RappyVideo-RappyVideoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RappyVideo-RappyVideoUITests.release.xcconfig"; path = "Target Support Files/Pods-RappyVideo-RappyVideoUITests/Pods-RappyVideo-RappyVideoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		410013CFA7852BB2D58640CA /* Pods_RappyVideo_RappyVideoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RappyVideo_RappyVideoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		528A40E426FF629900490D63 /* RappyVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RappyVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		528A40E726FF629900490D63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		528A40E926FF629900490D63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		528A40EB26FF629900490D63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		528A40EE26FF629900490D63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		528A40F126FF629900490D63 /* RappyVideo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RappyVideo.xcdatamodel; sourceTree = "<group>"; };
@@ -51,6 +54,13 @@
 		528A410826FF629A00490D63 /* RappyVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RappyVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		528A410C26FF629A00490D63 /* RappyVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RappyVideoUITests.swift; sourceTree = "<group>"; };
 		528A410E26FF629A00490D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8179127FC969AC93C806323F /* Pods-RappyVideo-RappyVideoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RappyVideo-RappyVideoUITests.debug.xcconfig"; path = "Target Support Files/Pods-RappyVideo-RappyVideoUITests/Pods-RappyVideo-RappyVideoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		845FD606BE306ABF446FEF34 /* Pods-RappyVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RappyVideo.release.xcconfig"; path = "Target Support Files/Pods-RappyVideo/Pods-RappyVideo.release.xcconfig"; sourceTree = "<group>"; };
+		A9CA6F97D6FDE88904DF8D4E /* Pods-RappyVideoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RappyVideoTests.release.xcconfig"; path = "Target Support Files/Pods-RappyVideoTests/Pods-RappyVideoTests.release.xcconfig"; sourceTree = "<group>"; };
+		BE1238B34DEE71186F8AB932 /* Pods-RappyVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RappyVideo.debug.xcconfig"; path = "Target Support Files/Pods-RappyVideo/Pods-RappyVideo.debug.xcconfig"; sourceTree = "<group>"; };
+		CC8494CB0769ED2965DD2885 /* Pods_RappyVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RappyVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E7FBF8636CCD157D01A841 /* Pods_RappyVideoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RappyVideoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD1937245C3D6481D307AD9E /* Pods-RappyVideoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RappyVideoTests.debug.xcconfig"; path = "Target Support Files/Pods-RappyVideoTests/Pods-RappyVideoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21D3B0C260118161D0A5677E /* Pods_RappyVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECCEFBFE0CCB007A73AD279B /* Pods_RappyVideoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF4F52E32CC2AE4654DB0046 /* Pods_RappyVideo_RappyVideoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +98,8 @@
 				528A410026FF629A00490D63 /* RappyVideoTests */,
 				528A410B26FF629A00490D63 /* RappyVideoUITests */,
 				528A40E526FF629900490D63 /* Products */,
+				7D751DEC2A10F81F3B499038 /* Pods */,
+				ACD57FC3D27CC2EBFEF9CD8B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,7 +117,6 @@
 			isa = PBXGroup;
 			children = (
 				528A40E726FF629900490D63 /* AppDelegate.swift */,
-				528A40E926FF629900490D63 /* SceneDelegate.swift */,
 				528A40EB26FF629900490D63 /* ViewController.swift */,
 				528A40ED26FF629900490D63 /* Main.storyboard */,
 				528A40F326FF629A00490D63 /* Assets.xcassets */,
@@ -131,6 +145,30 @@
 			path = RappyVideoUITests;
 			sourceTree = "<group>";
 		};
+		7D751DEC2A10F81F3B499038 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE1238B34DEE71186F8AB932 /* Pods-RappyVideo.debug.xcconfig */,
+				845FD606BE306ABF446FEF34 /* Pods-RappyVideo.release.xcconfig */,
+				8179127FC969AC93C806323F /* Pods-RappyVideo-RappyVideoUITests.debug.xcconfig */,
+				391CA7E05DCA723EA469A31F /* Pods-RappyVideo-RappyVideoUITests.release.xcconfig */,
+				FD1937245C3D6481D307AD9E /* Pods-RappyVideoTests.debug.xcconfig */,
+				A9CA6F97D6FDE88904DF8D4E /* Pods-RappyVideoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ACD57FC3D27CC2EBFEF9CD8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC8494CB0769ED2965DD2885 /* Pods_RappyVideo.framework */,
+				410013CFA7852BB2D58640CA /* Pods_RappyVideo_RappyVideoUITests.framework */,
+				E0E7FBF8636CCD157D01A841 /* Pods_RappyVideoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 528A411126FF629A00490D63 /* Build configuration list for PBXNativeTarget "RappyVideo" */;
 			buildPhases = (
+				C09CD7D7C61753DB49F53E41 /* [CP] Check Pods Manifest.lock */,
 				528A40E026FF629900490D63 /* Sources */,
 				528A40E126FF629900490D63 /* Frameworks */,
 				528A40E226FF629900490D63 /* Resources */,
+				3FED2B99CA7A6A06186FD6D6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 528A411426FF629A00490D63 /* Build configuration list for PBXNativeTarget "RappyVideoTests" */;
 			buildPhases = (
+				C13F76E11CC8A47217DC7DDB /* [CP] Check Pods Manifest.lock */,
 				528A40F926FF629A00490D63 /* Sources */,
 				528A40FA26FF629A00490D63 /* Frameworks */,
 				528A40FB26FF629A00490D63 /* Resources */,
@@ -173,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 528A411726FF629A00490D63 /* Build configuration list for PBXNativeTarget "RappyVideoUITests" */;
 			buildPhases = (
+				C2A701B650EE9DE86D882B40 /* [CP] Check Pods Manifest.lock */,
 				528A410426FF629A00490D63 /* Sources */,
 				528A410526FF629A00490D63 /* Frameworks */,
 				528A410626FF629A00490D63 /* Resources */,
+				F000D666800122A49745EA5D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +299,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3FED2B99CA7A6A06186FD6D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RappyVideo/Pods-RappyVideo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RappyVideo/Pods-RappyVideo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RappyVideo/Pods-RappyVideo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C09CD7D7C61753DB49F53E41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RappyVideo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C13F76E11CC8A47217DC7DDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RappyVideoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2A701B650EE9DE86D882B40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RappyVideo-RappyVideoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F000D666800122A49745EA5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RappyVideo-RappyVideoUITests/Pods-RappyVideo-RappyVideoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RappyVideo-RappyVideoUITests/Pods-RappyVideo-RappyVideoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RappyVideo-RappyVideoUITests/Pods-RappyVideo-RappyVideoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		528A40E026FF629900490D63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,7 +410,6 @@
 				528A40EC26FF629900490D63 /* ViewController.swift in Sources */,
 				528A40E826FF629900490D63 /* AppDelegate.swift in Sources */,
 				528A40F226FF629900490D63 /* RappyVideo.xcdatamodeld in Sources */,
-				528A40EA26FF629900490D63 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +582,7 @@
 		};
 		528A411226FF629A00490D63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE1238B34DEE71186F8AB932 /* Pods-RappyVideo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,7 +592,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rappy.app.RappyVideo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rappy.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -455,6 +601,7 @@
 		};
 		528A411326FF629A00490D63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 845FD606BE306ABF446FEF34 /* Pods-RappyVideo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,7 +611,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rappy.app.RappyVideo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rappy.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -473,6 +620,7 @@
 		};
 		528A411526FF629A00490D63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD1937245C3D6481D307AD9E /* Pods-RappyVideoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +642,7 @@
 		};
 		528A411626FF629A00490D63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9CA6F97D6FDE88904DF8D4E /* Pods-RappyVideoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +664,7 @@
 		};
 		528A411826FF629A00490D63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8179127FC969AC93C806323F /* Pods-RappyVideo-RappyVideoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +684,7 @@
 		};
 		528A411926FF629A00490D63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 391CA7E05DCA723EA469A31F /* Pods-RappyVideo-RappyVideoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
