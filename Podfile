@@ -7,7 +7,15 @@ target 'RappyVideo' do
 
   # Pods for RappyVideo
 
-pod 'Alamofire', '~> 5.4'
+  pod 'Alamofire', '~> 4.7'
+  pod 'Player', '~> 0.13.0'
+  pod 'SKActivityIndicatorView'
+  pod 'AlamofireObjectMapper', '~> 5.2'
+  pod 'MaterialComponents'
+  pod 'Randient'
+  pod 'AlamofireImage', '~> 3.6'
+  pod 'YouTubePlayer'
+  pod 'SwiftMessages'
 
   target 'RappyVideoTests' do
     inherit! :search_paths

@@ -3,19 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		21D3B0C260118161D0A5677E /* Pods_RappyVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8494CB0769ED2965DD2885 /* Pods_RappyVideo.framework */; };
+		5202141A27020A27007EEA3A /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5202141927020A27007EEA3A /* VideoModel.swift */; };
+		5202141C27020BED007EEA3A /* VideoPlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5202141B27020BED007EEA3A /* VideoPlayController.swift */; };
+		5202141E27020E62007EEA3A /* VideoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5202141D27020E62007EEA3A /* VideoPresenter.swift */; };
+		5202142027020E90007EEA3A /* VideoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5202141F27020E90007EEA3A /* VideoInteractor.swift */; };
+		5202142227020F98007EEA3A /* VideoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5202142127020F98007EEA3A /* VideoProtocol.swift */; };
+		5221F10F27022D0800772078 /* VideoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5221F10E27022D0800772078 /* VideoRouter.swift */; };
+		5230359226FFDB95007B3912 /* CetegoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5230359126FFDB95007B3912 /* CetegoryCell.swift */; };
+		5230359526FFDBAB007B3912 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5230359426FFDBAB007B3912 /* MovieCell.swift */; };
+		523035992700204F007B3912 /* helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523035982700204F007B3912 /* helpers.swift */; };
 		528A40E826FF629900490D63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528A40E726FF629900490D63 /* AppDelegate.swift */; };
-		528A40EC26FF629900490D63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528A40EB26FF629900490D63 /* ViewController.swift */; };
 		528A40EF26FF629900490D63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 528A40ED26FF629900490D63 /* Main.storyboard */; };
 		528A40F226FF629900490D63 /* RappyVideo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 528A40F026FF629900490D63 /* RappyVideo.xcdatamodeld */; };
 		528A40F426FF629A00490D63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528A40F326FF629A00490D63 /* Assets.xcassets */; };
 		528A40F726FF629A00490D63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 528A40F526FF629A00490D63 /* LaunchScreen.storyboard */; };
 		528A410226FF629A00490D63 /* RappyVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528A410126FF629A00490D63 /* RappyVideoTests.swift */; };
 		528A410D26FF629A00490D63 /* RappyVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528A410C26FF629A00490D63 /* RappyVideoUITests.swift */; };
+		528A412626FF72BA00490D63 /* AnimationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528A412526FF72BA00490D63 /* AnimationFactory.swift */; };
+		528A412826FF72D700490D63 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528A412726FF72D700490D63 /* Animator.swift */; };
+		528A412A26FF72F800490D63 /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528A412926FF72F800490D63 /* Loading.swift */; };
+		528A412C26FF779300490D63 /* MovieInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528A412B26FF779300490D63 /* MovieInteractor.swift */; };
+		528A412E26FF783100490D63 /* MovieProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528A412D26FF783100490D63 /* MovieProtocol.swift */; };
+		528A413026FF789000490D63 /* MovieRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528A412F26FF789000490D63 /* MovieRouter.swift */; };
+		528A413226FF78B600490D63 /* MoviePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528A413126FF78B600490D63 /* MoviePresenter.swift */; };
+		528A413426FF78F000490D63 /* ListMovieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528A413326FF78F000490D63 /* ListMovieController.swift */; };
+		528A413626FF795C00490D63 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528A413526FF795C00490D63 /* Config.swift */; };
+		528A413826FF99CC00490D63 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528A413726FF99CC00490D63 /* MovieModel.swift */; };
+		52D92BD72701452C00F74129 /* DetailMovieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D92BD62701452C00F74129 /* DetailMovieController.swift */; };
 		ECCEFBFE0CCB007A73AD279B /* Pods_RappyVideoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E7FBF8636CCD157D01A841 /* Pods_RappyVideoTests.framework */; };
 		EF4F52E32CC2AE4654DB0046 /* Pods_RappyVideo_RappyVideoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 410013CFA7852BB2D58640CA /* Pods_RappyVideo_RappyVideoUITests.framework */; };
 /* End PBXBuildFile section */
@@ -40,9 +59,17 @@
 /* Begin PBXFileReference section */
 		391CA7E05DCA723EA469A31F /* Pods-RappyVideo-RappyVideoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RappyVideo-RappyVideoUITests.release.xcconfig"; path = "Target Support Files/Pods-RappyVideo-RappyVideoUITests/Pods-RappyVideo-RappyVideoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		410013CFA7852BB2D58640CA /* Pods_RappyVideo_RappyVideoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RappyVideo_RappyVideoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5202141927020A27007EEA3A /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		5202141B27020BED007EEA3A /* VideoPlayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayController.swift; sourceTree = "<group>"; };
+		5202141D27020E62007EEA3A /* VideoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPresenter.swift; sourceTree = "<group>"; };
+		5202141F27020E90007EEA3A /* VideoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoInteractor.swift; sourceTree = "<group>"; };
+		5202142127020F98007EEA3A /* VideoProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoProtocol.swift; sourceTree = "<group>"; };
+		5221F10E27022D0800772078 /* VideoRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRouter.swift; sourceTree = "<group>"; };
+		5230359126FFDB95007B3912 /* CetegoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CetegoryCell.swift; sourceTree = "<group>"; };
+		5230359426FFDBAB007B3912 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		523035982700204F007B3912 /* helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helpers.swift; sourceTree = "<group>"; };
 		528A40E426FF629900490D63 /* RappyVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RappyVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		528A40E726FF629900490D63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		528A40EB26FF629900490D63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		528A40EE26FF629900490D63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		528A40F126FF629900490D63 /* RappyVideo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RappyVideo.xcdatamodel; sourceTree = "<group>"; };
 		528A40F326FF629A00490D63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,6 +81,17 @@
 		528A410826FF629A00490D63 /* RappyVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RappyVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		528A410C26FF629A00490D63 /* RappyVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RappyVideoUITests.swift; sourceTree = "<group>"; };
 		528A410E26FF629A00490D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		528A412526FF72BA00490D63 /* AnimationFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationFactory.swift; sourceTree = "<group>"; };
+		528A412726FF72D700490D63 /* Animator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
+		528A412926FF72F800490D63 /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
+		528A412B26FF779300490D63 /* MovieInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInteractor.swift; sourceTree = "<group>"; };
+		528A412D26FF783100490D63 /* MovieProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieProtocol.swift; sourceTree = "<group>"; };
+		528A412F26FF789000490D63 /* MovieRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRouter.swift; sourceTree = "<group>"; };
+		528A413126FF78B600490D63 /* MoviePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePresenter.swift; sourceTree = "<group>"; };
+		528A413326FF78F000490D63 /* ListMovieController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMovieController.swift; sourceTree = "<group>"; };
+		528A413526FF795C00490D63 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		528A413726FF99CC00490D63 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		52D92BD62701452C00F74129 /* DetailMovieController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMovieController.swift; sourceTree = "<group>"; };
 		8179127FC969AC93C806323F /* Pods-RappyVideo-RappyVideoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RappyVideo-RappyVideoUITests.debug.xcconfig"; path = "Target Support Files/Pods-RappyVideo-RappyVideoUITests/Pods-RappyVideo-RappyVideoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		845FD606BE306ABF446FEF34 /* Pods-RappyVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RappyVideo.release.xcconfig"; path = "Target Support Files/Pods-RappyVideo/Pods-RappyVideo.release.xcconfig"; sourceTree = "<group>"; };
 		A9CA6F97D6FDE88904DF8D4E /* Pods-RappyVideoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RappyVideoTests.release.xcconfig"; path = "Target Support Files/Pods-RappyVideoTests/Pods-RappyVideoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -91,6 +129,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5230359026FFDB79007B3912 /* movies */ = {
+			isa = PBXGroup;
+			children = (
+				5230359126FFDB95007B3912 /* CetegoryCell.swift */,
+				5230359426FFDBAB007B3912 /* MovieCell.swift */,
+			);
+			name = movies;
+			sourceTree = "<group>";
+		};
 		528A40DB26FF629900490D63 = {
 			isa = PBXGroup;
 			children = (
@@ -116,11 +163,10 @@
 		528A40E626FF629900490D63 /* RappyVideo */ = {
 			isa = PBXGroup;
 			children = (
-				528A40E726FF629900490D63 /* AppDelegate.swift */,
-				528A40EB26FF629900490D63 /* ViewController.swift */,
-				528A40ED26FF629900490D63 /* Main.storyboard */,
-				528A40F326FF629A00490D63 /* Assets.xcassets */,
-				528A40F526FF629A00490D63 /* LaunchScreen.storyboard */,
+				528A412426FF726B00490D63 /* settings */,
+				528A412326FF725000490D63 /* utils */,
+				528A412226FF71C800490D63 /* ui */,
+				528A411A26FF710A00490D63 /* modules */,
 				528A40F826FF629A00490D63 /* Info.plist */,
 				528A40F026FF629900490D63 /* RappyVideo.xcdatamodeld */,
 			);
@@ -145,6 +191,113 @@
 			path = RappyVideoUITests;
 			sourceTree = "<group>";
 		};
+		528A411A26FF710A00490D63 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				528A411B26FF715800490D63 /* movies */,
+			);
+			name = modules;
+			sourceTree = "<group>";
+		};
+		528A411B26FF715800490D63 /* movies */ = {
+			isa = PBXGroup;
+			children = (
+				528A412126FF71B900490D63 /* view */,
+				528A412026FF71B100490D63 /* router */,
+				528A411F26FF71A600490D63 /* protocols */,
+				528A411E26FF719400490D63 /* presenter */,
+				528A411D26FF717C00490D63 /* interactor */,
+				528A411C26FF716A00490D63 /* entity */,
+			);
+			path = movies;
+			sourceTree = "<group>";
+		};
+		528A411C26FF716A00490D63 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				528A413726FF99CC00490D63 /* MovieModel.swift */,
+				5202141927020A27007EEA3A /* VideoModel.swift */,
+			);
+			name = entity;
+			sourceTree = "<group>";
+		};
+		528A411D26FF717C00490D63 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				528A412B26FF779300490D63 /* MovieInteractor.swift */,
+				5202141F27020E90007EEA3A /* VideoInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		528A411E26FF719400490D63 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				528A413126FF78B600490D63 /* MoviePresenter.swift */,
+				5202141D27020E62007EEA3A /* VideoPresenter.swift */,
+			);
+			name = presenter;
+			sourceTree = "<group>";
+		};
+		528A411F26FF71A600490D63 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				528A412D26FF783100490D63 /* MovieProtocol.swift */,
+				5202142127020F98007EEA3A /* VideoProtocol.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		528A412026FF71B100490D63 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				528A412F26FF789000490D63 /* MovieRouter.swift */,
+				5221F10E27022D0800772078 /* VideoRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		528A412126FF71B900490D63 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				528A413326FF78F000490D63 /* ListMovieController.swift */,
+				52D92BD62701452C00F74129 /* DetailMovieController.swift */,
+				5202141B27020BED007EEA3A /* VideoPlayController.swift */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		528A412226FF71C800490D63 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				5230359026FFDB79007B3912 /* movies */,
+				528A40ED26FF629900490D63 /* Main.storyboard */,
+				528A40F326FF629A00490D63 /* Assets.xcassets */,
+				528A40F526FF629A00490D63 /* LaunchScreen.storyboard */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		528A412326FF725000490D63 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				528A412526FF72BA00490D63 /* AnimationFactory.swift */,
+				528A412726FF72D700490D63 /* Animator.swift */,
+				528A412926FF72F800490D63 /* Loading.swift */,
+				523035982700204F007B3912 /* helpers.swift */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		528A412426FF726B00490D63 /* settings */ = {
+			isa = PBXGroup;
+			children = (
+				528A413526FF795C00490D63 /* Config.swift */,
+				528A40E726FF629900490D63 /* AppDelegate.swift */,
+			);
+			path = settings;
+			sourceTree = "<group>";
+		};
 		7D751DEC2A10F81F3B499038 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,7 +308,6 @@
 				FD1937245C3D6481D307AD9E /* Pods-RappyVideoTests.debug.xcconfig */,
 				A9CA6F97D6FDE88904DF8D4E /* Pods-RappyVideoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -407,9 +559,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				528A40EC26FF629900490D63 /* ViewController.swift in Sources */,
+				5221F10F27022D0800772078 /* VideoRouter.swift in Sources */,
+				5230359526FFDBAB007B3912 /* MovieCell.swift in Sources */,
+				528A413826FF99CC00490D63 /* MovieModel.swift in Sources */,
+				528A413426FF78F000490D63 /* ListMovieController.swift in Sources */,
+				528A412826FF72D700490D63 /* Animator.swift in Sources */,
+				528A412C26FF779300490D63 /* MovieInteractor.swift in Sources */,
 				528A40E826FF629900490D63 /* AppDelegate.swift in Sources */,
+				528A413626FF795C00490D63 /* Config.swift in Sources */,
+				528A412A26FF72F800490D63 /* Loading.swift in Sources */,
+				5202141A27020A27007EEA3A /* VideoModel.swift in Sources */,
 				528A40F226FF629900490D63 /* RappyVideo.xcdatamodeld in Sources */,
+				5202142027020E90007EEA3A /* VideoInteractor.swift in Sources */,
+				5230359226FFDB95007B3912 /* CetegoryCell.swift in Sources */,
+				5202141E27020E62007EEA3A /* VideoPresenter.swift in Sources */,
+				528A413026FF789000490D63 /* MovieRouter.swift in Sources */,
+				5202142227020F98007EEA3A /* VideoProtocol.swift in Sources */,
+				528A412626FF72BA00490D63 /* AnimationFactory.swift in Sources */,
+				528A413226FF78B600490D63 /* MoviePresenter.swift in Sources */,
+				52D92BD72701452C00F74129 /* DetailMovieController.swift in Sources */,
+				5202141C27020BED007EEA3A /* VideoPlayController.swift in Sources */,
+				528A412E26FF783100490D63 /* MovieProtocol.swift in Sources */,
+				523035992700204F007B3912 /* helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,6 +757,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RappyVideo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -605,6 +777,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RappyVideo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
